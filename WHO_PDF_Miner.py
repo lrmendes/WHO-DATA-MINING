@@ -23,8 +23,8 @@ import pandas as pd
 import os
 
 # INPUT VALUES
-pdf_file_name = "20200601-covid-19-sitrep-133.pdf"
-pdf_file_date = "2020/06/01"
+pdf_file_name = "20200617-covid-19-sitrep-149.pdf"
+pdf_file_date = "2020/06/17"
 
 # CODE
 pdf_file_folder = "inputs/"
@@ -32,7 +32,7 @@ pdf_outputs_folder = "outputs/"
 
 # Set Final Input/Output Patch
 csv_file_name = pdf_outputs_folder + os.path.splitext(pdf_file_name)[0] + '.csv'
-pdf_file_name = pdf_file_folder + "20200617-covid-19-sitrep-149.pdf"
+pdf_file_name = pdf_file_folder + pdf_file_name
 
 dict_final_data = defaultdict(list)
 
