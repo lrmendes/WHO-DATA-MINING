@@ -1,4 +1,4 @@
-﻿Date,Country/ Territory/Area,Total confirmed cases,Total confirmed new cases,Total deaths,Total new deaths
+﻿date,country_territory_area,total_confirmed_cases,total_confirmed_new_cases,total_deaths,total_new_deaths
 2020/06/17,DemocraticRepublicoftheCongo,4973,196,111,5
 2020/06/17,Nigeria,17148,490,424,0
 2020/06/17,Ghana,12193,229,58,4

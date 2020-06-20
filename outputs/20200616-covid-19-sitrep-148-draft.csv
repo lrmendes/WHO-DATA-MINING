@@ -1,4 +1,4 @@
-﻿Date,Country/ Territory/Area,Total confirmed cases,Total confirmed new cases,Total deaths,Total new deaths
+﻿date,country_territory_area,total_confirmed_cases,total_confirmed_new_cases,total_deaths,total_new_deaths
 2020/06/16,DemocraticRepublicoftheCongo,4777,0,106,0
 2020/06/16,SouthAfrica,73533,3495,1568,88
 2020/06/16,Nigeria,16658,573,424,4

@@ -23,8 +23,8 @@ import pandas as pd
 import os
 
 # INPUT VALUES
-pdf_file_name = "20200617-covid-19-sitrep-149.pdf"
-pdf_file_date = "2020/06/17"
+pdf_file_name = "20200619-covid-19-sitrep-151.pdf"
+pdf_file_date = "2020/06/19"
 
 # CODE
 pdf_file_folder = "inputs/"
@@ -163,17 +163,17 @@ for page_num in range(0, len(page_layouts)):
             death = int(death)
             death_new = int(death_new)
             if not country.isdecimal() and country != "":
-                dict_final_data['Date'].append(pdf_file_date)
-                dict_final_data['Country/ Territory/Area'].append(country)
-                dict_final_data['Total confirmed cases'].append(conf)
-                dict_final_data['Total confirmed new cases'].append(conf_new)
-                dict_final_data['Total deaths'].append(death)
-                dict_final_data['Total new deaths'].append(death_new)
+                dict_final_data['date'].append(pdf_file_date)
+                dict_final_data['country_territory_area'].append(country)
+                dict_final_data['total_confirmed_cases'].append(conf)
+                dict_final_data['total_confirmed_new_cases'].append(conf_new)
+                dict_final_data['total_deaths'].append(death)
+                dict_final_data['total_new_deaths'].append(death_new)
         except:
             continue
 
 # Save all valid table rows in a CSV file
 df = pd.DataFrame(dict_final_data,
-                  columns=['Date', 'Country/ Territory/Area', 'Total confirmed cases', 'Total confirmed new cases',
-                           'Total deaths', 'Total new deaths'])
+                  columns=['date', 'country_territory_area', 'total_confirmed_cases', 'total_confirmed_new_cases',
+                           'total_deaths', 'total_new_deaths'])
 df.to_csv(csv_file_name, encoding='utf-8-sig', date_format='%Y%m%d', index=False, header=True)
