@@ -26,21 +26,23 @@ The main adaptation is this code suitable for reading the tables of daily report
 
 
 <hr/>
+
 ## PDF Miner Algorithm:
 
-#### Input PDF (PdfMiner)
+### Input PDF (PdfMiner)
 <img src="examples_imgs/pdf_miner_input.png"/>
 
-#### Output CSV (Pandas)
+### Output CSV (Pandas)
 <img src="examples_imgs/pdf_miner_output.png"/>
 
 <hr/>
+
 ## Query Algorithms (Pandas / Seaborn):
 
-#### One Country Plot -> By Given Dates & Column/Attribute
+### One Country Plot -> By Given Dates & Column/Attribute
 <img src="examples_imgs/new_cases_by_country.png" width="350"/>  <img src="examples_imgs/new_cases_by_country_compare_dates.png" width="350"/>
 
-#### One Date Plot -> By Given Column/Attribute
+### One Date Plot -> By Given Column/Attribute
 <img src="examples_imgs/new_cases_by_date.png"/>
 <hr/>
 <img src="examples_imgs/new_deaths_by_date.png"/>
