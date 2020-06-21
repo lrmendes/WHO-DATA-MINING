@@ -7,6 +7,15 @@ http://www.degeneratestate.org/posts/2016/Jun/15/extracting-tabular-data-from-pd
 The main adaptation about the code is that this code is suitable for reading the World Health Organization (WHO) reporting tables about COVID.
 
 You can download all pdfs from WHO at this link: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/
+
+V1 ->   Convert a single file from input folder (pdf) to output folder (csv).
+        Generates a single CSV from a single PDF.
+
+V2 ->   Convert All Files from input folder (pdf) to output folder (csv).
+        Generates 1 CSV for each PDF File.
+
+V3 ->   Convert All Files from input folder (pdf) to output folder (csv).
+        Generates 1 CSV for all PDF Files.
 """
 
 import pdfminer
