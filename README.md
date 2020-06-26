@@ -39,6 +39,9 @@ The main adaptation is this code suitable for reading the tables of daily report
 
 ## Query Algorithms (Pandas / Seaborn):
 
+### One Country Plot -> By Given Dates & Attributes (Full Dataset)
+<img src="dataset_query_output.png"/>
+
 ### One Country Plot -> By Given Dates & Column/Attribute
 <img src="examples_imgs/new_cases_by_country.png" width="350"/>  <img src="examples_imgs/new_cases_by_country_compare_dates.png" width="350"/>
 
